@@ -26,7 +26,7 @@
 
 ## 📖 About
 
-**st6.interpo-scale** is a free, open-source Adobe After Effects extension that brings professional AI video processing to your timeline. Everything runs locally on your GPU — no cloud, no subscriptions, no accounts required.
+**st6.interpo-scale** is a free, Adobe After Effects extension that brings professional AI video processing to your timeline. Everything runs locally on your GPU — no cloud, no subscriptions, no accounts required.
 
 Select a comp or layer, toggle the processing steps you need, and hit render. The extension handles frame extraction, AI inference, and automatic re-import back into your project.
 
