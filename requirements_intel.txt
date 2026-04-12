@@ -1,0 +1,16 @@
+# Requirements for Intel GPU (OpenVINO / SYCL)
+numpy>=1.24.0
+opencv-python-headless>=4.8.0
+Pillow>=10.0.0
+tqdm>=4.65.0
+scenedetect[opencv]>=0.6.2
+
+# PyTorch (CPU or XPU)
+torch>=2.1.0
+
+# OpenVINO toolkit
+openvino>=2024.0.0
+openvino-dev>=2024.0.0
+
+# Model loading
+spandrel>=0.3.0

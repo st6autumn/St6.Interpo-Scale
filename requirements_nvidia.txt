@@ -1,0 +1,21 @@
+# Requirements for NVIDIA GPU (CUDA / TensorRT)
+numpy>=1.24.0
+opencv-python-headless>=4.8.0
+Pillow>=10.0.0
+tqdm>=4.65.0
+scenedetect[opencv]>=0.6.2
+
+# PyTorch with CUDA support
+# Install manually: pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
+torch>=2.1.0
+torchvision>=0.16.0
+
+# Model loading
+spandrel>=0.3.0
+safetensors>=0.4.0
+packaging>=23.0
+
+# TensorRT (optional, for maximum NVIDIA performance)
+# Install from: https://developer.nvidia.com/tensorrt
+# tensorrt>=8.6.0
+# torch-tensorrt>=2.1.0
