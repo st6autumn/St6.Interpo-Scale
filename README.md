@@ -78,7 +78,7 @@ Select a comp or layer, toggle the processing steps you need, and hit render. Th
 
 ### Method 1 — ZXP Installer (Recommended)
 
-1. Download **`St6.Interpo-Scale_v1.0.0.zxp`** from the [Latest Release](https://github.com/st6autumn/St6.Interpo-Scale/releases/latest)
+1. Download **`St6.Interpo-Scale_[v-.-.-].zxp`** from the [Latest Release](https://github.com/st6autumn/St6.Interpo-Scale/releases/latest)
 2. Install using [ZXP Installer](https://zxpinstaller.com/) or [Anastasiy's Extension Manager](https://install.anastasiy.com/)
 3. Open After Effects → **Window** → **Extensions** → **st6.interpo-scale**
 4. On first launch, click **Setup Dependencies** inside the panel to install the Python backend & models
