@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="assets/st6_logo_540.png" alt="st6.interpo-scale logo" width="120"/>
-</p>
-
 <h1 align="center">🍂 st6.interpo-scale</h1>
 
 <p align="center">
