@@ -76,12 +76,10 @@ Select a comp or layer, toggle the processing steps you need, and hit render. Th
 
 ### Quick Install
 
-1. Download **`St6.Interpo-Scale_v1.0.0.zip`** from the [Latest Release](https://github.com/st6autumn/St6.Interpo-Scale/releases/latest)
-2. Extract the zip anywhere
-3. Right-click **`install.bat`** → **Run as administrator**
-4. Restart After Effects
-5. Open the panel from **Window** → **Extensions** → **st6.interpo-scale**
-6. Click **Setup Dependencies** in the Settings tab — it installs Python, PyTorch, ffmpeg & everything else automatically
+1. Download **`St6.Interpo-Scale_[v-.-.-].zxp`**
+2. Install using [ZXP Installer](https://aescripts.com/learn/post/zxp-installer)
+3. Open After Effects → **Window** → **Extensions** → **st6.interpo-scale**
+4. On first launch, click **Setup Dependencies** inside the panel to install the Python backend & models
 
 ```
 
