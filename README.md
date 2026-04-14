@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/st6_logo_540.png" alt="st6.interpo-scale logo" width="120"/>
+</p>
+
 <h1 align="center">🍂 st6.interpo-scale</h1>
 
 <p align="center">
@@ -5,7 +9,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/version-1.0.0-orange?style=flat-square" alt="Version"/>
+  <img src="https://img.shields.io/badge/version-1.1.0-orange?style=flat-square" alt="Version"/>
   <img src="https://img.shields.io/badge/platform-Windows-blue?style=flat-square" alt="Platform"/>
   <img src="https://img.shields.io/badge/host-After%20Effects-9999FF?style=flat-square" alt="Host"/>
   <img src="https://img.shields.io/badge/GPU-NVIDIA%20%7C%20AMD%20%7C%20Intel-green?style=flat-square" alt="GPU"/>
@@ -22,9 +26,11 @@
 
 ## 📖 About
 
-**st6.interpo-scale** is a free, Adobe After Effects extension that brings professional AI video processing to your timeline. Everything runs locally on your GPU — no cloud, no subscriptions, no accounts required.
+**st6.interpo-scale** is a free Adobe After Effects extension that brings professional AI video processing to your timeline. Upscale, interpolate, denoise, sharpen, restore, and generate depth maps — all running locally on your GPU with no cloud services, no subscriptions, and no accounts.
 
-Select a comp or layer, toggle the processing steps you need, and hit render. The extension handles frame extraction, AI inference, and automatic re-import back into your project.
+Select a comp or layer, toggle the processing steps you need, and hit render. The extension handles frame extraction, AI inference, and automatic re-import back into your project. Queue multiple jobs, save your favorite chains as presets, and watch every frame render live in the panel.
+
+> **v1.1.0** — compact UI redesign, restored logs tab with color-coded lines, per-render scrollable queue logs, centered tab bar with slide animation, side-by-side output & presets, plus fixes for the backend modal, `setup_deps.bat`, dropdowns, and tooltips. See the [release notes](https://github.com/st6autumn/St6.Interpo-Scale/releases/latest) for the full list.
 
 ---
 
@@ -72,16 +78,27 @@ Select a comp or layer, toggle the processing steps you need, and hit render. Th
 
 ## 📥 Installation
 
-### ZXP Installer (Recommended)
+### Quick Install
 
-1. Download **`St6.Interpo-Scale_[v-.-.-].zxp`** from the [Latest Release](https://github.com/st6autumn/St6.Interpo-Scale/releases/latest)
-2. Install using [ZXP Installer](https://zxpinstaller.com/) or [Anastasiy's Extension Manager](https://install.anastasiy.com/)
-3. Open After Effects → **Window** → **Extensions** → **st6.interpo-scale**
-4. On first launch, click **Setup Dependencies** inside the panel to install the Python backend & models
+1. Download **`St6.Interpo-Scale_v1.0.0.zip`** from the [Latest Release](https://github.com/st6autumn/St6.Interpo-Scale/releases/latest)
+2. Extract the zip anywhere
+3. Right-click **`install.bat`** → **Run as administrator**
+4. Restart After Effects
+5. Open the panel from **Window** → **Extensions** → **st6.interpo-scale**
+6. Click **Setup Dependencies** in the Settings tab — it installs Python, PyTorch, ffmpeg & everything else automatically
+
+```
+
+Then enable unsigned extensions by running this in a Command Prompt:
+
+```cmd
+reg add "HKCU\Software\Adobe\CSXS.12" /v PlayerDebugMode /t REG_SZ /d 1 /f
+reg add "HKCU\Software\Adobe\CSXS.13" /v PlayerDebugMode /t REG_SZ /d 1 /f
+```
 
 ### First-Time Setup
 
-The extension needs a Python virtual environment with PyTorch and the AI models. On first launch, click the **Setup** button in the Settings tab — it handles everything automatically. An internet connection is required for the initial model download only.
+The extension needs a Python environment with PyTorch and the AI models. On first launch, click the **Setup Dependencies** button in the Settings tab — it handles everything automatically (Python, CUDA PyTorch, ffmpeg). An internet connection is required for the initial setup and model downloads only. After that, everything runs fully offline.
 
 ---
 
