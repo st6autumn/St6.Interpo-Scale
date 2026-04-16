@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/version-1.1.0-orange?style=flat-square" alt="Version"/>
+  <img src="https://img.shields.io/badge/version-1.1.1-orange?style=flat-square" alt="Version"/>
   <img src="https://img.shields.io/badge/platform-Windows-blue?style=flat-square" alt="Platform"/>
   <img src="https://img.shields.io/badge/host-After%20Effects-9999FF?style=flat-square" alt="Host"/>
   <img src="https://img.shields.io/badge/GPU-NVIDIA%20%7C%20AMD%20%7C%20Intel-green?style=flat-square" alt="GPU"/>
@@ -26,7 +26,7 @@
 
 Select a comp or layer, toggle the processing steps you need, and hit render. The extension handles frame extraction, AI inference, and automatic re-import back into your project. Queue multiple jobs, save your favorite chains as presets, and watch every frame render live in the panel.
 
-> **v1.1.0** — compact UI redesign, restored logs tab with color-coded lines, per-render scrollable queue logs, centered tab bar with slide animation, side-by-side output & presets, plus fixes for the backend modal, `setup_deps.bat`, dropdowns, and tooltips. See the [release notes](https://github.com/st6autumn/St6.Interpo-Scale/releases/latest) for the full list.
+> **v1.1.1** — anime hold-frame jitter fix, prerender-only mode, toast notifications, Real-CUGAN Pro NCNN fix, color-accurate encoding, depth pipeline improvements & multi-layer render fixes. See the [release notes](https://github.com/st6autumn/St6.Interpo-Scale/releases/latest) for the full list.
 
 ---
 
@@ -74,12 +74,12 @@ Select a comp or layer, toggle the processing steps you need, and hit render. Th
 
 ## 📥 Installation
 
-### Quick Install
+### Method 1 — ZXP Install (Recommended)
 
-1. Download **`St6.Interpo-Scale_[v-.-.-].zxp`**
-2. Install using [ZXP Installer](https://aescripts.com/learn/post/zxp-installer)
-3. Open After Effects → **Window** → **Extensions** → **st6.interpo-scale**
-4. On first launch, click **Setup Dependencies** inside the panel to install the Python backend & models
+1. Download the `.zxp` from the [Latest Release](https://github.com/st6autumn/St6.Interpo-Scale/releases/latest)
+2. Install it using [**ZXP Installer** by aescripts](https://aescripts.com/learn/post/zxp-installer)
+3. Restart After Effects → **Window** → **Extensions** → **st6.interpo-scale**
+4. Click **Setup Dependencies** in the Settings tab (first install only)
 
 ```
 
